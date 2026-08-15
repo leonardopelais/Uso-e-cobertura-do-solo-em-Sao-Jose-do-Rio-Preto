@@ -1,2 +1,4 @@
 dados brutos/
 src/db_config.py
+__pycache__/
+.pytest_cache/
