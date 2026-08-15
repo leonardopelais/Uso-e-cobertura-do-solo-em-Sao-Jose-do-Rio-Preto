@@ -41,8 +41,8 @@ essas views e desenha os gráficos.
 
 Documentei o processo de decisão e a implementação com mais detalhe aqui, caso alguém queira
 entender o porquê de cada escolha:
-- [Spec de design](docs/superpowers/specs/2026-08-15-uso-cobertura-solo-rio-preto-design.md)
-- [Plano de implementação](docs/superpowers/plans/2026-08-15-uso-cobertura-solo-rio-preto-plan.md)
+- [Spec de design](docs/specs/2026-08-15-uso-cobertura-solo-rio-preto-design.md)
+- [Plano de implementação](docs/plans/2026-08-15-uso-cobertura-solo-rio-preto-plan.md)
 
 ## Como rodar
 

@@ -41,8 +41,8 @@ At the end, Python reads those views and draws the charts.
 
 I documented the decision process and the implementation in more detail here, in case
 anyone wants to understand why I made each choice (both in Portuguese):
-- [Design spec](docs/superpowers/specs/2026-08-15-uso-cobertura-solo-rio-preto-design.md)
-- [Implementation plan](docs/superpowers/plans/2026-08-15-uso-cobertura-solo-rio-preto-plan.md)
+- [Design spec](docs/specs/2026-08-15-uso-cobertura-solo-rio-preto-design.md)
+- [Implementation plan](docs/plans/2026-08-15-uso-cobertura-solo-rio-preto-plan.md)
 
 ## How to run it
 

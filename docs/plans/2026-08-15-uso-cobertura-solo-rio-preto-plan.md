@@ -8,7 +8,7 @@
 
 **Tech Stack:** Python 3.14 (pandas, psycopg2-binary, xlrd, matplotlib, pytest), PostgreSQL local.
 
-**Spec:** `docs/superpowers/specs/2026-08-15-uso-cobertura-solo-rio-preto-design.md`
+**Spec:** `docs/specs/2026-08-15-uso-cobertura-solo-rio-preto-design.md`
 
 ## Global Constraints
 
@@ -1000,8 +1000,8 @@ substituiu, e como isso se compara a cidades paulistas de porte populacional sem
 
 ## Como rodar
 
-Ver `docs/superpowers/specs/2026-08-15-uso-cobertura-solo-rio-preto-design.md` para a
-arquitetura, e `docs/superpowers/plans/2026-08-15-uso-cobertura-solo-rio-preto-plan.md`
+Ver `docs/specs/2026-08-15-uso-cobertura-solo-rio-preto-design.md` para a
+arquitetura, e `docs/plans/2026-08-15-uso-cobertura-solo-rio-preto-plan.md`
 para os passos completos de ingestão e modelagem.
 
 Fontes de dados brutos (não incluídas no repositório — baixe e coloque em `dados brutos/`):
