@@ -1,13 +1,13 @@
 # Design — Uso e Cobertura do Solo em São José do Rio Preto
 
 **Data:** 2026-08-15
-**Status:** aprovado, aguardando revisão final da Nathalia antes do plano de implementação.
+**Status:** aprovado, aguardando revisão final do Leonardo antes do plano de implementação.
 
 ---
 
 ## 1. Objetivo
 
-Projeto de **portfólio** para a Nathalia entrar na área de análise de dados, com dois
+Projeto de **portfólio** para o Leonardo entrar na área de análise de dados, com dois
 objetivos que valem igual:
 
 1. Produzir uma análise pública e bem contada sobre expansão urbana (o portfólio em si).
@@ -29,7 +29,7 @@ no mesmo período (ângulo econômico).
 | Entregável fase 2 | Dashboard interativo — ferramenta a definir depois |
 | Fontes de dados | MapBiomas COVERAGE, MapBiomas TRANSITION (via Plataforma interativa), população IBGE |
 | Idioma | Textos/análise em PT; código, tabelas e colunas em EN; README bilíngue |
-| Dinâmica de trabalho | Claude escreve e explica cada passo; Nathalia revisa e roda |
+| Dinâmica de trabalho | Claude escreve e explica cada passo; Leonardo revisa e roda |
 
 ### Racional de decisões não óbvias
 
@@ -239,4 +239,4 @@ sem "Área Urbanizada" isolada).
 
 - Replicar os 20 exports de TRANSITION (4 períodos × 5 cidades do grupo de comparação).
 - Escolher a ferramenta do dashboard (fase 2).
-- Confirmar se a Nathalia já tem conta no GitHub.
+- Confirmar se o Leonardo já tem conta no GitHub.
