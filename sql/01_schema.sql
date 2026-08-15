@@ -41,6 +41,12 @@ CREATE TABLE dim_municipality (
     is_comparison_group  BOOLEAN NOT NULL DEFAULT FALSE
 );
 
+-- class_level_0..4 e class_name_en vêm do COVERAGE, que usa nomes em INGLÊS
+-- (ex.: "4.2. Urban Area"). class_name_pt é a tradução manual para o nome em
+-- PORTUGUÊS que aparece nos exports de TRANSITION (ex.: "Área Urbanizada") —
+-- os dois idiomas coexistem porque cada fonte de dado do MapBiomas exporta
+-- num idioma diferente; sem isso o JOIN entre fact_coverage e fact_transition
+-- não bate.
 CREATE TABLE dim_class (
     class_id       SERIAL PRIMARY KEY,
     class_level_0  TEXT NOT NULL,
@@ -48,7 +54,8 @@ CREATE TABLE dim_class (
     class_level_2  TEXT,
     class_level_3  TEXT,
     class_level_4  TEXT,
-    class_name     TEXT NOT NULL UNIQUE  -- nível mais profundo disponível; é o que aparece no TRANSITION
+    class_name_en  TEXT NOT NULL UNIQUE,
+    class_name_pt  TEXT UNIQUE
 );
 
 -- Fatos
