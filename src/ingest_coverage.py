@@ -22,7 +22,9 @@ def read_filtered():
     long_df = df.melt(id_vars=ID_COLUMNS, value_vars=YEAR_COLUMNS,
                        var_name="year_col", value_name="area_ha")
     long_df["year"] = long_df["year_col"].str[1:].astype(int)
-    return long_df[ID_COLUMNS + ["year", "area_ha"]]
+    # municípios na fronteira de dois biomas aparecem em duas linhas por
+    # classe/ano (uma por bioma) — soma pra granularidade ser só município
+    return long_df.groupby(ID_COLUMNS + ["year"], as_index=False)["area_ha"].sum()
 
 
 def load():
