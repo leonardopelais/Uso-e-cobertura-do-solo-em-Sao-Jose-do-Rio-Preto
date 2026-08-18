@@ -7,6 +7,8 @@ compare that growth against 5 other São Paulo cities of similar population size
 Cruzes, Jundiaí, Piracicaba, Santos, and Mauá), so I'd have something to measure it against
 instead of just looking at one isolated number.
 
+**Interactive dashboard:** https://uso-e-cobertura-do-solo-em-sao-jose-do-rio-preto.streamlit.app/
+
 The data comes from [MapBiomas](https://brasil.mapbiomas.org/) (satellite-based land use
 and land cover mapping, collection 11) and from Brazil's census bureau, IBGE. The pipeline
 is Python for ingestion, PostgreSQL for modeling and analysis, and Python again for the

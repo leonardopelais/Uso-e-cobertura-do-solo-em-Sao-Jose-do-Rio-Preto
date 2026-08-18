@@ -7,6 +7,8 @@ comparo esse crescimento com o de 5 outras cidades paulistas de tamanho parecido
 Cruzes, Jundiaí, Piracicaba, Santos e Mauá), pra ter um ponto de referência e não ficar só
 olhando um número isolado.
 
+**Dashboard interativo:** https://uso-e-cobertura-do-solo-em-sao-jose-do-rio-preto.streamlit.app/
+
 Os dados vêm do [MapBiomas](https://brasil.mapbiomas.org/) (mapeamento de uso e cobertura
 do solo por satélite, coleção 11) e do IBGE. O pipeline é Python pra ingestão, PostgreSQL
 pra modelar e analisar, e Python de novo pra gerar os gráficos.
